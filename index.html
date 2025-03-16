@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesedi Gwebu's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Lesedi Gwebu</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+    <div class="logo">Lesedi Gwebu</div>
+    <div class="hamburger-menu">
+     <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+     </div>
+     <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+     </div>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/WhatsApp Image 2024-12-06 at 17.08.58.jpeg" alt="Lesedi Gwebu Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Lesedi Gwebu</h1>
+            <p class="section__text__p2">Software Developer, Security and Network Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Lesedi-Gwebu-CV.pdf')">
+                    Download CV</button>
+
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='//www.linkedin.com/in/lesedi-gwebu-349275318/'">
+                
+                <img src="./assets/github.png" alt="My Github Profile"
+                class="icon" onclick="location.href='//github.com/lesediGwebu'">
+                
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/WhatsApp Image 2024-12-04 at 17.31.11.jpeg" alt="Profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon"
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>1 year <br>IT Technical and Software Support Intern.</p>
+                        <p>3+ years <br>Sales and Marketing.</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Education icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>-Bachelors of Science in Security and Network Engineering.<br>-Diploma in Software Engineering.</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I offer a strong blend of expertise in Security and Network Engineering, Software Development and Network Security, along with proven communication and strategic skills from my experience in sales and marketing. Proficient in Microsoft Office, I am a versatile and results-driven professional ready to add value to any IT organization.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+         alt="Arrow icon"
+         class="icon arrow" 
+         onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">IT Technical Support Intern</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Python Coding</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Cisco Networking</h3>
+                                <p>Intermediate</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>SQL Server</h3>
+                                <p>Intermediate</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>AWS & Microsoft Azure</h3>
+                                <p>Intermediate</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Technical Troubleshooting</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Network Security</h3>
+                                <p>Intermediate</p>
+                             </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">IT Software Support Intern</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets//checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Resolving Software-Related Issues</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Documentation</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Application use support </h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Client support</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Storing Database in SQL Server </h3>
+                                <p>Experiencedp>
+                             </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" 
+                             alt="Experience icon" 
+                             class="icon">
+                             <div>
+                                <h3>Troubleshoot Software</h3>
+                                <p>Experienced</p>
+                             </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <img src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow" 
+        onclick="location.href='./#projects'"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My</p>
+        <h1 class="title">Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Wi-fi Hacking Investigation in Public Networks</h3>
+                <p>- Description: Investigated vulnerabilities in public Wi-Fi networks, analyzing encryption protocols (WEP, WPA, WPA3) through simulations to assess security risks.</p>
+                <p>- Skills Demonstrated: Network security, ethical hacking, wireless protocols, simulation environments.</p>
+            </div>
+            <div class="project-card">
+                <h3>Mobile Application Development</h3>
+                <p>- Description: Developed and managed a mobile app that connects users with local eco-friendly service providers, addressing user growth and revenue diversification challenges.</p>
+                <p>- Skills Demonstrated: Mobile app Development, business strategy, product management, sustainability focus.</p>
+            </div>
+            <div class="project-card">
+                <h3>Damn Vulnerable Web Application (DVWA) Security Assessment</h3>
+                <p>- Description: Conducted a comprehensive security assessment using DVWA to identify vulnerabilities like SQL injection, XSS, and CSRF.</p>
+                <p>- Skills Demonstrated: Ethical hacking, penetration testing, vulnerability analysis, report writing.</p>
+            </div>
+            <div class="project-card">
+                <h3>Cyber Supply Chain Risk Management</h3>
+                <p>- Description: Designed a framework to detect and mitigate risks from compromised suppliers.</p>
+                <p>- Skills Demonstrated: Supply chain security, risk management, monitoring, incident detection.</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow" 
+        onclick="location.href='./#contact'"
+        />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" 
+                     alt="Email Icon" 
+                     class="icon contact-icon email-icon">
+                     <p><a href="mailto:lesedidgwebu@gmail.com">lesedidgwebu@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" 
+                     alt="LinkedIn Icon" 
+                     class="icon contact-icon">
+                     <p><a href="//www.linkedin.com/in/lesedi-gwebu-349275318/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Lesedi Gwebu. All Rights Reserved.</p>
+    </footer>
+  <script src="script.js"></script>  
+</body>
+</html>
